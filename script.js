@@ -31,6 +31,5 @@ btnTranslate.addEventListener("click", clickHandler);
 erase.addEventListener("click", clear);
 
 function clear() {
-    textInput.value = "";
-    output.innerText = "";
+    window.location.reload()
 }
